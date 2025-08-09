@@ -29,6 +29,11 @@ jobs:
 
       - name: Harvest S&P 500 list
         run: Rscript ./R/harvest_sp500.r
+
+      - name: Configure git identity
+        run: |
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git config user.name "github-actions[bot]"
         
       - name: Commit and push data file
         uses: stefanzweifel/git-auto-commit-action@v5
