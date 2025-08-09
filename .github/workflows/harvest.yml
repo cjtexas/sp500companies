@@ -20,11 +20,20 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y libxml2-dev libcurl4-openssl-dev libssl-dev
 
-      - name: Setup R (v4.3.2) & install packages
+      - name: Setup R (v4.3.2) 
         uses: r-lib/actions/setup-r@v2
         with:
           r-version: '4.3.2'            
-          packages: "rvest readr"
+
+      - name: Install R packages
+        run: |
+          Rscript -e "
+            pkgs <- c('rvest', 'readr')
+            missing <- pkgs[!sapply(pkgs, requireNamespace, quietly = TRUE)]
+            if (length(missing)) {
+              install.packages(missing, repos='https://cloud.r-project.org')
+            }
+          "
 
       - name: Harvest S&P 500 list
         run: Rscript ./R/harvest_sp500.r
