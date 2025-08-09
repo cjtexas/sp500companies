@@ -28,7 +28,7 @@ jobs:
           Rscript -e "install.packages(c('rvest', 'httr', 'xml2'), repos='https://cloud.r-project.org')"
 
       - name: Harvest S&P 500 list
-        run: Rscript ./R/harvest_sp500.R
+        run: Rscript ./R/harvest_sp500.r
 
       - name: Commit and push data file
         uses: stefanzweifel/git-auto-commit-action@v5
