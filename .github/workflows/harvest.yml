@@ -24,12 +24,7 @@ jobs:
         uses: r-lib/actions/setup-r@v2
         with:
           r-version: '4.3.2'            
-          packages: |
-            rvest
-            readr
-
-      - name: Ensure rvest is installed
-        run: Rscript -e "if (!requireNamespace('rvest', quietly = TRUE)) install.packages('rvest', repos='https://cloud.r-project.org')"
+          packages: "rvest readr"
 
       - name: Harvest S&P 500 list
         run: Rscript ./R/harvest_sp500.r
