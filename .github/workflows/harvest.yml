@@ -26,6 +26,7 @@ jobs:
           r-version: '4.3.2'            
           packages: |
             rvest
+            readr
 
       - name: Ensure rvest is installed
         run: Rscript -e "if (!requireNamespace('rvest', quietly = TRUE)) install.packages('rvest', repos='https://cloud.r-project.org')"
