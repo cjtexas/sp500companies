@@ -173,7 +173,6 @@ EOG,EOG Resources,Energy,Oil & Gas Exploration & Production,"Houston, Texas",200
 EQT,EQT Corporation,Energy,Oil & Gas Exploration & Production,"Pittsburgh, Pennsylvania",2022-10-03,33213,1888
 EFX,Equifax,Industrials,Research & Consulting Services,"Atlanta, Georgia",1997-06-19,33185,1899
 EQIX,Equinix,Real Estate,Data Center REITs,"Redwood City, California",2015-03-20,1101239,1998
-EQR,Equity Residential,Real Estate,Multi-Family Residential REITs,"Chicago, Illinois",2001-12-03,906107,1969
 ERIE,Erie Indemnity,Financials,Insurance Brokers,"Erie, Pennsylvania",2024-09-23,922621,1925
 ESS,Essex Property Trust,Real Estate,Multi-Family Residential REITs,"San Mateo, California",2014-04-02,920522,1971
 EL,Estée Lauder Companies (The),Consumer Staples,Personal Care Products,"New York City, New York",2006-01-05,1001250,1946
@@ -386,6 +385,7 @@ DGX,Quest Diagnostics,Health Care,Health Care Services,"Secaucus, New Jersey",20
 Q,Qnity Electronics,Information Technology,Semiconductor Materials & Equipment,"Wilmington, Delaware",2025-11-03,2058873,2025
 RL,Ralph Lauren Corporation,Consumer Discretionary,"Apparel, Accessories & Luxury Goods","New York City, New York",2007-02-02,1037038,1967
 RJF,Raymond James Financial,Financials,Investment Banking & Brokerage,"St. Petersburg, Florida",2017-03-20,720005,1962
+RDDT,Reddit,Communication Services,,"Bellevue, Washington",2026-08-18,NA,2005
 RTX,RTX Corporation,Industrials,Aerospace & Defense,"Waltham, Massachusetts",1957-03-04,101829,1922
 O,Realty Income,Real Estate,Retail REITs,"San Diego, California",2015-04-07,726728,1969
 REG,Regency Centers,Real Estate,Retail REITs,"Jacksonville, Florida",2017-03-02,910606,1963
@@ -475,6 +475,7 @@ VTRS,Viatris,Health Care,Pharmaceuticals,"Pittsburgh, Pennsylvania",2004-04-23,1
 VICI,Vici Properties,Real Estate,Hotel & Resort REITs,"New York City, New York",2022-06-08,1705696,2017
 V,Visa Inc.,Financials,Transaction & Payment Processing Services,"San Francisco, California",2009-12-21,1403161,1958
 VST,Vistra Corp.,Utilities,Electric Utilities,"Irving, Texas",2024-05-08,1692819,2016
+VMRK,Vivmark Residential,Real Estate,Multi-Family Residential REITs,"Chicago, Illinois",2001-12-03,906107,1969
 VMC,Vulcan Materials Company,Materials,Construction Materials,"Birmingham, Alabama",1999-06-30,1396009,1909
 WRB,W. R. Berkley Corporation,Financials,Property & Casualty Insurance,"Greenwich, Connecticut",2019-12-05,11544,1967
 GWW,W. W. Grainger,Industrials,Industrial Machinery & Supplies & Components,"Lake Forest, Illinois",1981-06-30,277135,1927
